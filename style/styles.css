@@ -25,14 +25,14 @@
     position: absolute;
 }
 
-h1,
+.header-back h1,
 h3 {
     color: #F00;
     font-family: Inter;
 
 }
 
-h1 {
+.header-back h1 {
     font-size: 80px;
     margin-bottom: 20px;
 }
@@ -42,11 +42,42 @@ h3 {
     /* margin-top: 50px; */
     padding-top: 20px;
 }
+
 h2 {
-    color: #070211;  
+    color: #070211;
     font-size: 48px;
     margin-bottom: 20px;
 }
-.header-back{
+
+.header-back {
     text-align: center;
 }
+
+.header-bg {
+    background-image: url("../image/Vectorrr.png");
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* padding: 20px 20px; */
+
+}
+
+/#party {
+    position: absolute;
+    color: #FFF;
+    font-size: 64px;
+
+}
+ #party h4{
+    margin-right: 500px;
+}
+.header-bg #party{
+    padding-left: 120px;
+}
+.header-bg div img{
+    padding: 60px 200px 60px 0px;
+}
+
+
+ 
