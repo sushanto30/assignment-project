@@ -1,0 +1,52 @@
+.header-div {
+    background-image: url("../image/Banner\ Image.png");
+    margin: 10px auto;
+    width: 1320px;
+    height: 600px;
+    justify-content: center;
+    position: relative;
+    border-radius: 16px;
+
+}
+
+.header-div h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    padding: 160px 500px 10px 500px;
+    position: absolute;
+}
+
+.header-div h1 {
+    color: #FFF;
+    font-size: 72px;
+    padding: 230px 300px 160px 300px;
+    text-align: center;
+    position: absolute;
+}
+
+h1,
+h3 {
+    color: #F00;
+    font-family: Inter;
+
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 15px;
+    /* margin-top: 50px; */
+    padding-top: 20px;
+}
+h2 {
+    color: #070211;  
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.header-back{
+    text-align: center;
+}
