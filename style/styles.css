@@ -96,9 +96,25 @@ h2 {
     text-align: center;
 }
 
-.heder-section{
-    /* max-width: 75% */
-    text-align: center;
+.heder-section  { 
+    text-align: center; 
     
-    
+
+
+
+}
+
+#GIFTS {
+    padding-left: 140px;
+
+}
+
+section header {
+    width: 1600px;
+    height: 7335px;
+    margin: 20px auto;
+}
+section div img:hover{
+    padding: 10px;
+    background-color: rgb(250, 5, 5);
 }
