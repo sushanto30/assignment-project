@@ -96,12 +96,8 @@ h2 {
     text-align: center;
 }
 
-.heder-section  { 
-    text-align: center; 
-    
-
-
-
+.heder-section {
+    text-align: center;
 }
 
 #GIFTS {
@@ -114,7 +110,41 @@ section header {
     height: 7335px;
     margin: 20px auto;
 }
-section div img:hover{
+
+section div img:hover {
     padding: 10px;
     background-color: rgb(250, 5, 5);
+}
+
+.div-subscribe {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    border-radius: 100%;
+}
+
+.section-newsletter {
+    background: rgba(245, 143, 143, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin: 300px auto;
+    text-align: center;
+    padding: 80px 150px;
+}
+#website{
+    display: flex;
+    justify-content: space-between;
+}
+#website div a{
+    list-style: none;
+}
+
+.footer-facebook {
+    width: 1600px;
+    height: 609px;
+    text-align: center;
+    background-color: #4a15b4;
+    margin-bottom: 500px;
+    justify-content: center;
+
 }
