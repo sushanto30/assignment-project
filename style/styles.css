@@ -127,24 +127,38 @@ section div img:hover {
     background: rgba(245, 143, 143, 0.05);
     width: 1320px;
     height: 616px;
-    margin: 300px auto;
+    margin: auto;
     text-align: center;
-    padding: 80px 150px;
+    /* padding: 80px 150px; */
 }
-#website{
-    display: flex;
-    justify-content: space-between;
-}
-#website div a{
-    list-style: none;
+
+.div-subscribe form {
+    /* display: flex; */
 }
 
 .footer-facebook {
+    background-color: aqua;
     width: 1600px;
-    height: 609px;
-    text-align: center;
-    background-color: #4a15b4;
-    margin-bottom: 500px;
-    justify-content: center;
+    height: 609px; 
+    margin: auto;
+    
+}
 
+.footer-con {
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+    /* padding:20px 200px; */
+
+}
+.footer-img{
+    text-align: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+ .reserved-div {
+    /* justify-content: space-between; */
+}
+ div > p > #Unsubscribe{
+    margin-right: 120px;
 }
